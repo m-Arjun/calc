@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
         margin: EdgeInsets.all(20),
         child: Column(
           children: <Widget>[
-            TextField(onSubmitted: (String userInput){
+            TextField(onChanged: (String userInput){
               setState(() {
                 city=userInput;                 
               });
