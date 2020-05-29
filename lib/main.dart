@@ -14,7 +14,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String city="";
-  var data=['Ruppee','dollars','euros','others'];
+  var data=['Ruppee','dollars','euros','others','yen','new currency'];
   String currency = 'Ruppee';
   @override
   Widget build(BuildContext context) {
